@@ -16,21 +16,25 @@
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
-            android:layout_marginLeft="3pt" />
+            android:layout_marginLeft="3pt"
+            android:background="#000000"
+            app:backgroundTint="#FFFFFF" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
-            android:layout_marginLeft="3pt" />
+            android:layout_marginLeft="3pt"
+            app:backgroundTint="#FFFFFF" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
-            android:layout_marginLeft="3pt" />
+            android:layout_marginLeft="3pt"
+            app:backgroundTint="#FFFFFF" />
     </TableRow>
 
     <TableRow
