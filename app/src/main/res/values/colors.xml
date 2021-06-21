@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="backGroudOfTheApp">#CDDC39</color>
     <color name="colorOfTheButtons">#FFFFFF</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="green">#FF8BC34A</color>
 </resources>
