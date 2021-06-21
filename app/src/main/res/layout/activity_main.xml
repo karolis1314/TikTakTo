@@ -14,7 +14,7 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/b1"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
@@ -23,7 +23,7 @@
             app:backgroundTint="#FFFFFF" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/b2"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
@@ -32,40 +32,7 @@
             app:backgroundTint="#FFFFFF" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="40pt"
-            android:layout_height="40pt"
-            android:layout_marginStart="3pt"
-            android:layout_marginLeft="3pt"
-            android:layout_marginTop="3pt"
-            app:backgroundTint="#FFFFFF" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="40pt"
-            android:layout_height="40pt"
-            android:layout_marginStart="3pt"
-            android:layout_marginLeft="3pt"
-            android:layout_marginTop="3pt"
-            app:backgroundTint="#FFFFFF" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="40pt"
-            android:layout_height="40pt"
-            android:layout_marginStart="3pt"
-            android:layout_marginLeft="3pt"
-            android:layout_marginTop="3pt"
-            app:backgroundTint="#FFFFFF" />
-
-        <Button
-            android:id="@+id/button"
+            android:id="@+id/b3"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
@@ -80,7 +47,7 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/b4"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
@@ -89,7 +56,7 @@
             app:backgroundTint="#FFFFFF" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/b5"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
@@ -98,7 +65,40 @@
             app:backgroundTint="#FFFFFF" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/b6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            app:backgroundTint="#FFFFFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/b9"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="3pt"
