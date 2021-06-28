@@ -5,6 +5,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import com.example.tiktakto.R.id.*
+import java.util.*
+import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,15 +22,15 @@ class MainActivity : AppCompatActivity() {
         var cellID = 0
 
         when(bSelected.id){
-            R.id.b1 -> cellID = 1
-            R.id.b2 -> cellID = 2
-            R.id.b3 -> cellID = 3
-            R.id.b4 -> cellID = 4
-            R.id.b5 -> cellID = 5
-            R.id.b6 -> cellID = 6
-            R.id.b7 -> cellID = 7
-            R.id.b8 -> cellID = 8
-            R.id.b9 -> cellID = 9
+            b1 -> cellID = 1
+            b2 -> cellID = 2
+            b3 -> cellID = 3
+            b4 -> cellID = 4
+            b5 -> cellID = 5
+            b6 -> cellID = 6
+            b7 -> cellID = 7
+            b8 -> cellID = 8
+            b9 -> cellID = 9
         }
 
         playGame(cellID, bSelected)
@@ -44,6 +47,7 @@ class MainActivity : AppCompatActivity() {
             bSelected.setBackgroundResource(R.color.green)
             playerOne.add(cellId)
             activePlayer = 2
+            autoPlay()
         }else{
             bSelected.text = "O"
             bSelected.setBackgroundResource(R.color.blue)
@@ -54,6 +58,11 @@ class MainActivity : AppCompatActivity() {
 
         checkWinner()
     }
+
+     fun autoPlay() {
+
+     }
+
 
     fun checkWinner(){
         var winner = -1

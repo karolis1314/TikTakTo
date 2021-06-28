@@ -21,7 +21,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
 
         <Button
             android:id="@+id/b2"
@@ -31,7 +31,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
 
         <Button
             android:id="@+id/b3"
@@ -41,7 +41,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
     </TableRow>
 
     <TableRow
@@ -57,7 +57,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
 
         <Button
             android:id="@+id/b5"
@@ -67,7 +67,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
 
         <Button
             android:id="@+id/b6"
@@ -77,7 +77,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
     </TableRow>
 
     <TableRow
@@ -93,7 +93,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
 
         <Button
             android:id="@+id/b8"
@@ -103,7 +103,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
 
         <Button
             android:id="@+id/b9"
@@ -113,6 +113,6 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:onClick="bClick"
-            app:backgroundTint="@color/colorOfTheButtons" />
+            app:background="@color/colorOfTheButtons" />
     </TableRow>
 </TableLayout>
