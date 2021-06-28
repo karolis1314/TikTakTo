@@ -6,8 +6,8 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import com.example.tiktakto.R.id.*
-import java.util.*
 import kotlin.collections.ArrayList
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,15 +22,15 @@ class MainActivity : AppCompatActivity() {
         var cellID = 0
 
         when(bSelected.id){
-            b1 -> cellID = 1
-            b2 -> cellID = 2
-            b3 -> cellID = 3
-            b4 -> cellID = 4
-            b5 -> cellID = 5
-            b6 -> cellID = 6
-            b7 -> cellID = 7
-            b8 -> cellID = 8
-            b9 -> cellID = 9
+            R.id.b1 -> cellID = 1
+            R.id.b2 -> cellID = 2
+            R.id.b3 -> cellID = 3
+            R.id.b4 -> cellID = 4
+            R.id.b5 -> cellID = 5
+            R.id.b6 -> cellID = 6
+            R.id.b7 -> cellID = 7
+            R.id.b8 -> cellID = 8
+            R.id.b9 -> cellID = 9
         }
 
         playGame(cellID, bSelected)
@@ -59,9 +59,7 @@ class MainActivity : AppCompatActivity() {
         checkWinner()
     }
 
-     fun autoPlay() {
 
-     }
 
 
     fun checkWinner(){
@@ -125,6 +123,36 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Player one won the game!", Toast.LENGTH_LONG).show()
         }else if(winner == 2){
             Toast.makeText(this, "Player two won the game!", Toast.LENGTH_LONG).show()
+        }
+    }
+
+    fun autoPlay(){
+        var emptyCellsList = ArrayList<Int>()
+
+        for(cellId in 1..9){
+            if(!(playerOne.contains(cellId)  || playerTwo.contains(cellId))){
+                emptyCellsList.add(cellId)
+            }
+        }
+
+        val r = java.util.Random()
+
+        val randIndex = r.nextInt(emptyCellsList.size)
+
+        val cellId = emptyCellsList[randIndex]
+
+        var buttonSelected:Button?
+        buttonSelected = when(cellId){
+            1 -> b1
+            2 -> b2
+            3 -> b3
+            4 -> b4
+            5 -> b5
+            6 -> b6
+            7 -> b7
+            8 -> b8
+            9 -> b9
+            else -> { b1}
         }
     }
 }
