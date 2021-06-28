@@ -142,7 +142,7 @@ class MainActivity : AppCompatActivity() {
         val cellId = emptyCellsList[randIndex]
 
         var buttonSelected:Button?
-        buttonSelected = when(cellId){
+        when(cellId){
             1 -> b1
             2 -> b2
             3 -> b3
